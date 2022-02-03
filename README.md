@@ -43,9 +43,11 @@ Alternatively, you can use [`0 dev`](https://docs.layer0.co/guides/cli#section_d
 yarn 0 dev
 ```
 
+Open [localhost:3001](http://localhost:3001) to see the web app.
+
 ## Build Project for Deployment
 
-[`0 build`](https://docs.layer0.co/guides/cli#section_build) does a Redwood build of both the `web` and `api` sides as well as a Layer0 build for copying the necessary build assets. Make sure to run this command before starting the development server.
+[`0 build`](https://docs.layer0.co/guides/cli#section_build) does a Redwood build of both the `web` and `api` sides as well as a Layer0 build for copying the necessary build assets. Make sure to run this command before `0 run -p`.
 
 ```bash
 yarn 0 build
@@ -53,13 +55,13 @@ yarn 0 build
 
 ### Run Production Simulation of Build
 
-[`0 run -p`](https://docs.layer0.co/guides/cli#section_run) runs the build simulating production mode.
+[`0 run -p`](https://docs.layer0.co/guides/cli#section_run) runs the build simulating production mode. This starts Redwood's `apiServerHandler` on Layer0's production port and sets the `apiRootPath` to whatever is defined in `redwood.toml`. This means any API request that comes in starts up that server to handle the request.
 
 ```bash
 yarn 0 run -p
 ```
 
-This starts Redwood's `apiServerHandler` on Layer0's production port and sets the `apiRootPath` to whatever is defined in `redwood.toml`. This means any API request that comes in starts up that server to handle the request.
+Open [localhost:3000](http://localhost:3000) to see the web app.
 
 ## Deploy Project to Layer0
 
