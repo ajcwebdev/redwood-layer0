@@ -2155,10 +2155,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@layer0/cli@4.10.4-next-1645823900-160d11dff.0":
-  version "4.10.4-next-1645823900-160d11dff.0"
-  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-4.10.4-next-1645823900-160d11dff.0.tgz#615d103a5cb21592c4dc3db34c4ea2ba11aeb650"
-  integrity sha512-XgbiuCHA+qeZOeRp/RK9wqi+dlKgtl/E0aeQ+f+tf9IpZfuSa1WKCxO3O3d1lP/9ZphHw3PyXuJO+0PVzad7Ig==
+"@layer0/cli@4.10.4-next-1646779634-d98830463.0":
+  version "4.10.4-next-1646779634-d98830463.0"
+  resolved "https://registry.yarnpkg.com/@layer0/cli/-/cli-4.10.4-next-1646779634-d98830463.0.tgz#67513abd2163aa41e27d5e8a5a2fb7fb8f07facd"
+  integrity sha512-xKWT0mTygfnL3gBv5A02qyqjSPeYCTkB0iwR0XoPlS2cFIjMjaaAFydpA/+JZhg2IAHkqIaJBqyQxZ13cKUCJA==
   dependencies:
     axios "^0.21.2"
     chalk "^2.4.2"
@@ -2196,10 +2196,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@layer0/core@4.10.4-next-1645823900-160d11dff.0", "@layer0/core@^4.10.4-next-1645823900-160d11dff.0":
-  version "4.10.4-next-1645823900-160d11dff.0"
-  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-4.10.4-next-1645823900-160d11dff.0.tgz#13e01ef6b4691ce908979eec9d57439e247f854b"
-  integrity sha512-dVq87bedJF55RrN7HSd2b0BztOjUga6qmi1167kYN0EegdFsH+m9mBG8siHsjRJIAYrZZJ9W9zlS73vdQLF2jA==
+"@layer0/core@4.10.4-next-1646779634-d98830463.0", "@layer0/core@^4.10.4-next-1646779634-d98830463.0":
+  version "4.10.4-next-1646779634-d98830463.0"
+  resolved "https://registry.yarnpkg.com/@layer0/core/-/core-4.10.4-next-1646779634-d98830463.0.tgz#91606598807e5c0ccbbede4343bb0ec7da3dca09"
+  integrity sha512-QMYXtN8f05SildPnjOi0jp4skpa8EgBUq9F64bKgFAPL+85J2pREOWaYoJbp72CSj6FbpEbuWqq40cTs9FxCIg==
   dependencies:
     "@babel/parser" "^7.16.2"
     "@babel/traverse" "^7.16.0"
@@ -2236,21 +2236,21 @@
     unixify "^1.0.0"
     uuid "^8.3.2"
 
-"@layer0/devtools@4.10.4-next-1645823900-160d11dff.0":
-  version "4.10.4-next-1645823900-160d11dff.0"
-  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-4.10.4-next-1645823900-160d11dff.0.tgz#079940981159d0c94e956612a3b77de5ae49c339"
-  integrity sha512-1BszsZ5TUNp3QpnRVCTphl7HlssP+bGevZQJOZ3ejMHgeQQnR7jgspPr6e8TAKBP0283m83kv7H/CIIzEOLdhg==
+"@layer0/devtools@4.10.4-next-1646779634-d98830463.0":
+  version "4.10.4-next-1646779634-d98830463.0"
+  resolved "https://registry.yarnpkg.com/@layer0/devtools/-/devtools-4.10.4-next-1646779634-d98830463.0.tgz#5fe2340cc025295e3d2fda71fcf20cabe33acfe6"
+  integrity sha512-McFvVDNzvcDviB0prh1p9thJYVAhPa/Auslk1XIk4sNmgaHDB9/7o/a14yh4nNDnXyj1fcRHd03QpPB6ElPp1g==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@layer0/prefetch@4.10.4-next-1645823900-160d11dff.0":
-  version "4.10.4-next-1645823900-160d11dff.0"
-  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-4.10.4-next-1645823900-160d11dff.0.tgz#2c00658d47a880545c8883002e762d5e1a9040e7"
-  integrity sha512-3gESx8c8QSKD1uwFyk8NUvu0PGcM2yexezK5Bb6L2b0kaBz7V2NeInMs+v45ZSw2ThfDgKVd6ym8kAODIRZzqw==
+"@layer0/prefetch@4.10.4-next-1646779634-d98830463.0":
+  version "4.10.4-next-1646779634-d98830463.0"
+  resolved "https://registry.yarnpkg.com/@layer0/prefetch/-/prefetch-4.10.4-next-1646779634-d98830463.0.tgz#95cc9b74ddb77f7d2ed293ef357c40a0aeb56e1d"
+  integrity sha512-14/wIdDwpmnWO8qhQdMWt5d2enpjH+ILvlsPBbwEobcfVRbRVrm80UCT21WbumnWGdNqDt6DCxGGKao8rpSlWw==
   dependencies:
-    "@layer0/core" "^4.10.4-next-1645823900-160d11dff.0"
+    "@layer0/core" "^4.10.4-next-1646779634-d98830463.0"
     cheerio "^1.0.0-rc.3"
     json-query "^2.2.2"
     workbox-cacheable-response "^5.1.2"
@@ -2260,8 +2260,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@layer0/redwood@file:.yalc/@layer0/redwood":
-  version "4.10.3"
+"@layer0/redwood@4.10.4-next-1646779634-d98830463.0":
+  version "4.10.4-next-1646779634-d98830463.0"
+  resolved "https://registry.yarnpkg.com/@layer0/redwood/-/redwood-4.10.4-next-1646779634-d98830463.0.tgz#cba80009326f10ee112a9c1dbb14985eba2656fb"
+  integrity sha512-I7HXzeUT0TijEY8BFUF0M0xNwEx6kqRfnrBOyqAL2vnX6kKsz2E7feXOPaVN2ivHMSBbuDOvsA12R+g55aZkCw==
   dependencies:
     "@vercel/nft" "^0.13.1"
     chalk "^4.1.2"

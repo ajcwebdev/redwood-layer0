@@ -14,20 +14,20 @@
     ]
   },
   "devDependencies": {
-    "@layer0/cli": "4.10.4-next-1645823900-160d11dff.0",
-    "@layer0/core": "4.10.4-next-1645823900-160d11dff.0",
-    "@layer0/devtools": "4.10.4-next-1645823900-160d11dff.0",
-    "@layer0/prefetch": "4.10.4-next-1645823900-160d11dff.0",
-    "@layer0/redwood": "4.10.4-next-1645823900-160d11dff.0",
-    "@redwoodjs/core": "^0.42.0"
+    "@layer0/cli": "4.10.4-next-1646779634-d98830463.0",
+    "@layer0/core": "4.10.4-next-1646779634-d98830463.0",
+    "@layer0/devtools": "4.10.4-next-1646779634-d98830463.0",
+    "@layer0/prefetch": "4.10.4-next-1646779634-d98830463.0",
+    "@layer0/redwood": "4.10.4-next-1646779634-d98830463.0",
+    "@redwoodjs/core": "^0.49.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
     "root": true
   },
   "engines": {
-    "node": ">=14.x <=16.x",
-    "yarn": "1.x"
+    "node": ">=14.17 <=16.x",
+    "yarn": ">=1.15 <2"
   },
   "prisma": {
     "seed": "yarn rw exec seed"
