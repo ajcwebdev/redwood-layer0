@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@layer0/redwood": {
+      "signature": "703b74e68d3d523a5c68c9ad6c9a5d4f",
+      "pure": true,
+      "replaced": "4.10.4-next-1645823900-160d11dff.0"
+    }
+  }
+}
